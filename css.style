@@ -1,0 +1,29 @@
+.gallery {
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 12px;
+margin-top: 15px;
+}
+
+.item {
+background: #111;
+padding: 10px;
+border-radius: 12px;
+transition: 0.3s;
+}
+
+.item:hover {
+transform: scale(1.05);
+}
+
+.item img {
+width: 100%;
+border-radius: 10px;
+}
+
+.item p {
+font-size: 13px;
+margin-top: 5px;
+color: #ccc;
+text-align: center;
+}
